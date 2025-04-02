@@ -13,4 +13,6 @@ provider "azurerm" {
   features {}
 
   storage_use_azuread = true
+  subscription_id = "000000000000000000000000"
+
 }
